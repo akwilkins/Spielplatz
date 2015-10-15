@@ -1,7 +1,7 @@
 #-*- coding: cp1252 -*-
 
 import easygui
-eis = easygui.choicebox("Was wollen Sie fuer eine Eissorte?", choices = ['Himbeer', 'Erdbeer', 'Kirsch', 'Waldfrüchte', 'Heidelbeere', 'Schoko', 'Vanille', 'Mokka', 'Rocher', 'Mango', 'Granatapfel', 'Cranberry', 'Sesam', 'Jne', 'Limmette', 'Karamel mit gesalzener Butter', 'Smarties', 'Casis', 'Orange', 'Mandarine', 'Malaga', 'Schlumpfeis', 'Tutti Frutti', 'Praline', 'Amarena-Kirsch', 'Zitrus-Mix', 'Kafee-eis', 'Papaya', 'Ananas', 'After-Eight', 'Milchschokolade', 'Weisseschokolade', 'Snickerseis', 'Marseis', 'Twixeis', 'Bountyeis'])
+eis = easygui.buttonbox("Was wollen Sie fuer eine Eissorte?", choices = ['Himbeer', 'Erdbeer', 'Kirsch', 'WaldfrÃ¼chte', 'Heidelbeere', 'Schoko', 'Vanille', 'Mokka', 'Rocher', 'Mango', 'Granatapfel', 'Cranberry', 'Sesam', 'Jne', 'Limmette', 'Karamel mit gesalzener Butter', 'Smarties', 'Casis', 'Orange', 'Mandarine', 'Malaga', 'Schlumpfeis', 'Tutti Frutti', 'Praline', 'Amarena-Kirsch', 'Zitrus-Mix', 'Kafee-eis', 'Papaya', 'Ananas', 'After-Eight', 'Milchschokolade', 'Weisseschokolade', 'Snickerseis', 'Marseis', 'Twixeis', 'Bountyeis'])
 
 
 if eis:
