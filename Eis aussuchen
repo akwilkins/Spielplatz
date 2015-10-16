@@ -1,6 +1,6 @@
 import easygui
 eis = easygui.choicebox("was wollen sie für eine Eis sorte?",
-                        choices = ['Himbeer', 'Erdbeer', 'Kirsch', 'Waldfrüchte', 'Heidelbeere', 'Schoko', 'Vanille', 'Mokka', 'Rocher', 'Mango', 'Granatapfel', 'Cranberry', 'Sesam', 'Joguhrt', 'Sracciatella', 'Zitrone', 'Limmette', 'Karamel mit gesalzener Butter', 'Smarties', 'Casis', 'Orange', 'Mandarine', 'Malaga', 'Schlumpfeis', 'Tutti Frutti', 'Praline', 'Amarena-Kirsch', 'Zitrus-Mix', 'Kafee-eis', 'Papaya', 'Ananas', 'After-Eight', 'Milchschokolade', 'Weisseschokolade', 'Snickerseis', 'Marseis', 'Twixeis', 'Bountyeis'] )
+                        choices = ['Himbeer', 'Erdbeer', 'Kirsch', 'Waldfrüchte', 'Heidelbeere', 'Schoko', 'Vanille', 'Mokka', 'Rocher', 'Mango', 'Granatapfel', 'Cranberry', 'Sesam', 'Joguhrt', 'Sracciatella', 'Zitrone', 'Limmette', 'Karamel mit gesalzener Butter', 'Smarties', 'Casis', 'Orange', 'Mandarine', 'Malaga', 'Schlumpfeis', 'Tutti Frutti', 'Praline', 'Amarena-Kirsch', 'Zitrus-Mix', 'Kafee-eis', 'Papaya', 'Ananas', 'After-Eight', 'Milchschokolade', 'Weisseschokolade', 'Snickerseis', 'Marseis', 'Twixeis', 'Bountyeis', 'kein Eis'] )
 easygui.msgbox ("Ihre wahl war " + eis + """ es kostet 1,10E
 DANKE FÜR IHREN EINKAUF BEI EISPARADIS LITTI!!""")
     
